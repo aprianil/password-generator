@@ -8,7 +8,7 @@ function randomPassword() {
     pw1.textContent = "";
     pw2.textContent = "";
     
-    for (i = 0; i < 16; i++) {
+    for (i = 0; i < 15; i++) {
         let randomOne = Math.floor(Math.random() * characters.length);
         let randomTwo = Math.floor(Math.random() * characters.length);
          pw1.textContent += characters[randomOne];
